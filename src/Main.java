@@ -6,6 +6,6 @@ public class Main {
         System.out.println(a1.toString());
         Automovel a2 = new Automovel("22-22-BB","Fiat",0);
         System.out.println(a2.toString());
-
+        System.out.println("O total de automóveis: " + a1.getTotalAutomoveis());
     }
     }

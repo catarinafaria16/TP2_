@@ -37,4 +37,7 @@ public class Automovel {
     public String toString() {
         return "O automóvel com matrícula " + matricula + " é um " + marca + " de " + cilindrada + "cc.";
     }
+    public static int getTotalAutomoveis() {
+        return totalAutomoveis;
+    }
 }
