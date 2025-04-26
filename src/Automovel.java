@@ -8,7 +8,7 @@ public class Automovel {
         this.matricula = matricula;
         this.marca = marca;
         this.cilindrada = cilindrada;
-
+        totalAutomoveis++;
     }
     public String getMatricula() {
         return matricula;
