@@ -2,6 +2,7 @@ public class Automovel {
     private String matricula;
     private String marca;
     private int cilindrada;
+    private static int totalAutomoveis = 0;
 
     public Automovel(String matricula, String marca, int cilindrada) {
         this.matricula = matricula;
