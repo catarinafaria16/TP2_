@@ -33,5 +33,7 @@ public class Automovel {
     public void setCilindrada(int cilindrada) {
         this.cilindrada = cilindrada;
     }
-
+    public String toString() {
+        return "O automóvel com matrícula " + matricula + " é um " + marca + " de " + cilindrada + "cc.";
+    }
 }
