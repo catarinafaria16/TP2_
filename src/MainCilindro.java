@@ -7,5 +7,10 @@ public class MainCilindro {
         Cilindro cil2 =new Cilindro();
         cil2.setRaio(3);
         cil2.setAltura(5);
+        System.out.println("\nVolume: " + cil1.calcularVolume());
+        System.out.println("Área: " + cil1.calcularArea());
+
+        System.out.println("\nVolume: " + cil2.calcularVolume());
+        System.out.println("Área: " + cil2.calcularArea());
     }
 }
